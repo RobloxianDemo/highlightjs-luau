@@ -1,6 +1,11 @@
 ![](./assets/luau-logo.png)
 
+# IMPORTANT
+
+We have moved this repository to the [highlight.js Organization](https://github.com/highlightjs). Please use our new repository for usage and contributions [found here](https://github.com/highlightjs/highlightjs-luau)!
+
 # Luau language grammar for programming under the [Roblox Platform](https://devforum.roblox.com/).
+
 ## [View the Luau language here](https://luau-lang.org/).
 
 [![NPM](https://nodei.co/npm/highlightjs-luau.png)](https://www.npmjs.com/package/highlightjs-luau)
@@ -35,8 +40,9 @@ Simply load this module after loading Highlight.js. You'll use the minified vers
 ### Using directly from the UNPKG CDN
 
 ```html
-<script type="text/javascript"
-  src="https://unpkg.com/highlightjs-luau/dist/luau.min.js"></script>
+<script
+	type="text/javascript"
+	src="https://unpkg.com/highlightjs-luau/dist/luau.min.js"></script>
 ```
 
 - More info: <https://unpkg.com>
@@ -49,7 +55,7 @@ If you're using Node / Webpack / Rollup / Browserify, etc, simply require the la
 var hljs = require('highlightjs');
 var hljsLuau = require('highlightjs-luau');
 
-hljs.registerLanguage("luau", hljsLuau);
+hljs.registerLanguage('luau', hljsLuau);
 hljs.highlightAll();
 ```
 
